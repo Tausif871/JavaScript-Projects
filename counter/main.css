@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(45deg,green,purple,red);
+
+
+}
+
+
+.parent-main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child{
+    background-color: #fff;
+    height: 400px;
+    width: 450px;
+    border-radius: 15px;
+   
+}
+
+.child h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.child h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    font-size: 100px;
+    font-weight: 500;
+}
+
+.btns{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+#inc{
+    background-color: #20b2aa;
+    height: 50px;
+    width: 120px;
+    border-radius: 15px;
+    border: none;
+    font-size: 18px;
+    padding: 15px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+#inc:hover{
+    background-image: linear-gradient(45deg,green,lightseagreen);
+}
+
+#res{
+    background-color: #ea0c0c;
+    height: 50px;
+    width: 120px;
+    border-radius: 15px;
+    border: none;
+    font-size: 18px;
+    padding: 15px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+#res:hover{
+    background-image: linear-gradient(45deg,lightcyan,black);
+}
+
+#dec{
+    background-color: lightcoral;
+    height: 50px;
+    width: 120px;
+    border-radius: 15px;
+    border: none;
+    font-size: 18px;
+    padding: 15px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+
+#dec:hover{
+    background-image: linear-gradient(45deg,blue,purple);
+}
+
