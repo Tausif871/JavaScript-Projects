@@ -10,6 +10,27 @@ html , body{
 }
 
 #main-p{
-    
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
 }
 
+#cont-c{
+    display: grid;
+    justify-content: space-around;
+    gap: 15px;
+    margin: 15px 0;
+
+}
+
+#boxes{
+    border: 2px solid #000 ;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 15px 15px;
+}
